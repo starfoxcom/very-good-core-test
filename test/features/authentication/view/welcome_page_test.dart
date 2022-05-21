@@ -28,8 +28,8 @@ void main() {
   });
 
   testWidgets(
-      'Pushing ${LoginRoute.name} by tap then popping should show [WelcomePage]',
-      (WidgetTester tester) async {
+      'Pushing ${LoginRoute.name} by tap then popping should show '
+      '[WelcomePage]', (WidgetTester tester) async {
     await pumpRouterApp(tester, router);
     await tester.tap(find.text('Login'));
     await tester.pumpAndSettle();
@@ -49,8 +49,8 @@ void main() {
   });
 
   testWidgets(
-      'Pushing ${SignupRoute.name} by tap then popping should show [WelcomePage]',
-      (WidgetTester tester) async {
+      'Pushing ${SignupRoute.name} by tap then popping should show '
+      '[WelcomePage]', (WidgetTester tester) async {
     await pumpRouterApp(tester, router);
     await tester.tap(find.text('Signup'));
     await tester.pumpAndSettle();
