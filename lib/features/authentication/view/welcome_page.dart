@@ -23,6 +23,7 @@ class WelcomePage extends StatelessWidget {
                   width: size.width * 0.43,
                   child: ElevatedButton(
                     onPressed: () {
+                      // TODO(starfoxcom): Add Tracking for login button
                       context.pushRoute(const LoginRoute());
                     },
                     child: Text(
@@ -36,6 +37,7 @@ class WelcomePage extends StatelessWidget {
                   width: size.width * 0.43,
                   child: ElevatedButton(
                     onPressed: () {
+                      // TODO(starfoxcom): Add Tracking for signup button
                       context.pushRoute(const SignupRoute());
                     },
                     child: Text(
